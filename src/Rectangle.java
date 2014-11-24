@@ -20,6 +20,13 @@ public class Rectangle
     topRight.setX(origin.x+width);
     topRight.setY(origin.y+height);
   }
+  public Rectangle(Point a, Point b) 
+  {
+    origin = a;
+    width = b.x - origin.x;
+    height = b.y - origin.y;
+    topRight = b;      
+  }
   public void translate(int n, int m)
   {
     origin.translate(n,m);
