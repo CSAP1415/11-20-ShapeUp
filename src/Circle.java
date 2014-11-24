@@ -1,6 +1,6 @@
 // A Circle object represents a circle defined by a center point and a radius.
 //Ajeet Bains//
-import java.awt.Point;
+
 public class Circle
 {
   Point center;
